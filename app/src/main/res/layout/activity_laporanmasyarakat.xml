@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".profil"
+    android:background="@drawable/profil2">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAPORAN MASYARAKAT"
+        android:textColor="#ffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sungai Apit, Siak, Riau"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Form Laporan Masyarakat"
+        android:paddingTop="100dp"
+        android:textColor="#4CAF50"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mohon Jangan Berikan Data Palsu!"
+        android:paddingBottom="20dp"
+        android:textColor="#92000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Pelapor :"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama Anda"
+        android:paddingTop="15dp"
+        android:paddingBottom="20dp"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat Pelapor :"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        android:textColor="#4CAF50"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Alamat Anda"
+        android:textColor="@color/black"
+        android:paddingTop="15dp"
+        android:paddingBottom="20dp"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laporan :"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Laporan Anda"
+        android:paddingTop="15dp"
+        android:textColor="@color/black"
+        android:paddingBottom="20dp"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Laporan :"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Tanggal Laporan Anda"
+        android:paddingTop="15dp"
+        android:paddingBottom="20dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kirim Laporan Anda"
+        android:backgroundTint="#4CAF50"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mohon Bersabar, laporan Anda Akan Segera Di Proses" android:paddingBottom="20dp"
+        android:textColor="#92000000"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
